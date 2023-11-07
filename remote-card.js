@@ -283,6 +283,9 @@ class RemoteCard extends HTMLElement {
             </div>
         </div>
         <div id="bottom_buttons"></div>
+        <div id="bottom_input">
+            <input type="text" />
+        </div>
     `
         return html;
     }
