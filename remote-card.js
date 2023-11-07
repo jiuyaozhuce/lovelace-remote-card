@@ -373,6 +373,7 @@ class RemoteCard extends HTMLElement {
         box-sizing: border-box;
         border: 1px #ffffff17 solid;
       }
+
       .inner-circle:active{
             background-image: var(--card-color-off);
             box-shadow: 0px 0px 5px var(--accent-color) inset;
