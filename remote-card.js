@@ -219,14 +219,14 @@ class RemoteCard extends HTMLElement {
         }
         // 底部文本输入框
         // if(this.config.)
-        const input = this.hacard.querySelector('#bottom_input input')
+        /*const input = this.hacard.querySelector('#bottom_input input')
         input.onkeydown = (event)=>{
             if(event.keyCode == 13){
                 const text = input.value.trim()
                 console.log(text)
                 input.value = ''
             }
-        }
+        } */
     }
 
     selectMode(service_name, data = {}) {
@@ -283,12 +283,17 @@ class RemoteCard extends HTMLElement {
             </div>
         </div>
         <div id="bottom_buttons"></div>
-        <div id="bottom_input">
-            <input type="text" />
-        </div>
+
     `
         return html;
     }
+
+/*  输入框
+        <div id="bottom_input">
+            <input type="text" />
+        </div>
+
+*/
     _cssData() {
         var css = `
         #remote{
