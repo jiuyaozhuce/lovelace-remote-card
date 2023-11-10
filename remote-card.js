@@ -460,6 +460,9 @@ class RemoteCard extends HTMLElement {
         .not_home .ficon {
             background-color: var(--state-color-off);
         }
+        .not_home .inner-circle {
+            background-color: var(--state-color-off);
+        }        
         #bottom_input{ text-align: center;}
         #bottom_input input{
             width: 80%;
